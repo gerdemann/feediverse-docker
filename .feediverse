@@ -1,0 +1,9 @@
+access_token: ${MASTODON_ACCESS_TOKEN}
+client_id: ${MASTODON_CLIENT_ID}
+client_secret: ${MASTODON_CLIENT_SECRET}
+feeds:
+- template: '${TEMPLATE}'
+  url: ${FEED_URL}
+name: feediverse
+updated: '${START_DATE}'
+url: ${MASTODON_DOMAIN}
