@@ -5,7 +5,7 @@ This is a Docker image for [feediverse](https://github.com/edsu/feediverse).
 ## Usage
 
 ```
- docker run -it -e FEED_URL=###YOUR_RSS_FEED# -e ... ghcr.io/gerdemann/feediverse-docker:latest
+ docker run -it -e FEED_URL=###YOUR_RSS_FEED# -e ... gerdemann/feediverse:latest
 ```
 
 ## Possible ENVs
